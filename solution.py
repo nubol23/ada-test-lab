@@ -1,2 +1,2 @@
-def validate_date(date: str) -> str:
+class Vector:
     pass
