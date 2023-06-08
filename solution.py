@@ -1,2 +1,2 @@
-def calcular_promedios(verbales: str, numericas: str) -> int:
+def std(values: str) -> float:
     pass
