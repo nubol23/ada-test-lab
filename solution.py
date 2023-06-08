@@ -1,8 +1,2 @@
-from typing import Tuple
-
-
-db = set()
-
-
-def almacenar_orden(orden: Tuple[str, ...]) -> bool:
+def calcular_promedios(verbales: str, numericas: str) -> int:
     pass
