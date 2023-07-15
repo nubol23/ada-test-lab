@@ -16,7 +16,9 @@ def ej_3_temperaturas(array: np.ndarray) -> np.ndarray:
     pass
 
 
-def ej_4_min_max(temperaturas: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
+def ej_4_min_max(
+    temperaturas_fahrenheit: np.ndarray
+) -> Tuple[np.ndarray, np.ndarray]:
     # TODO: Retorna (temp_min, temp_max) en ese orden
     pass
 
@@ -29,7 +31,7 @@ def ej_6_cuadrado(diferencias: np.ndarray) -> np.ndarray:
     pass
 
 
-def ej_7_suma(cuadrados: np.ndarray) -> float:
+def ej_7_suma(diferencias_cuadrado: np.ndarray) -> float:
     pass
 
 

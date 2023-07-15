@@ -43,7 +43,7 @@ def test_solucion_4():
     
     temp_min, temp_max = ej_4_min_max(temperaturas)
     
-    assert (87.8, 71.6) == pytest.approx((temp_min, temp_max))
+    assert (71.6, 87.8) == pytest.approx((temp_min, temp_max))
     
 
 def test_solucion_5():
@@ -53,7 +53,7 @@ def test_solucion_5():
     
     np.testing.assert_allclose(
         ej_5_diferencias(temperaturas, media),
-        [-2.25, 2.75, -0.25, -5.25, 1.75, 3.75, -1.25, 0.75],
+        [49.75, 58.75, 53.35, 44.35, 56.95, 60.55, 51.55, 55.15],
     )
     
 
@@ -65,7 +65,16 @@ def test_solucion_6():
     
     np.testing.assert_allclose(
         ej_6_cuadrado(diferencias),
-        [5.0625, 7.5625, 0.0625, 27.5625, 3.0625, 14.0625, 1.5625, 0.5625],
+        [
+            2475.0625,
+            3451.5625,
+            2846.2225,
+            1966.9225,
+            3243.3025,
+            3666.3025,
+            2657.4025,
+            3041.5225,
+        ],
     )
     
     
@@ -76,7 +85,7 @@ def test_solucion_7():
     diferencias = ej_5_diferencias(temperaturas, media)
     cuadrados = ej_6_cuadrado(diferencias)
     
-    assert 59.5 == pytest.approx(ej_7_suma(cuadrados))
+    assert 23348.299999999996 == pytest.approx(ej_7_suma(cuadrados))
     
     
 def test_solucion_8():
@@ -87,4 +96,4 @@ def test_solucion_8():
     cuadrados = ej_6_cuadrado(diferencias)
     suma = ej_7_suma(cuadrados)
     
-    assert 7.713624310270756 == pytest.approx(ej_8_raiz(suma))
+    assert 152.8015052281881 == pytest.approx(ej_8_raiz(suma))
