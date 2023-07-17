@@ -5,15 +5,21 @@ def ej_1_cargar_csv() -> pd.DataFrame:
     pass
 
 
-def ej_2_convertir_fecha(df: pd.DataFrame):
+def ej_2_convertir_fecha(df: pd.DataFrame) -> None:
+    # TODO: debes cambiar el valor de la colúmna de forma inplace
+    # es decir, sobre el mismo dataframe, no creando uno nuevo
     pass
 
 
-def ej_3_convertir_cantidad(df: pd.DataFrame):
+def ej_3_convertir_cantidad(df: pd.DataFrame) -> None:
+    # TODO: debes cambiar el valor de la colúmna de forma inplace
+    # es decir, sobre el mismo dataframe, no creando uno nuevo
     pass
 
 
-def ej_4_fecha_como_indice(df: pd.DataFrame):
+def ej_4_fecha_como_indice(df: pd.DataFrame) -> None:
+    # TODO: debes cambiar el valor de la colúmna de forma inplace
+    # es decir, sobre el mismo dataframe, no creando uno nuevo
     pass
 
 
