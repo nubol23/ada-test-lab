@@ -20,7 +20,7 @@ Fecha: 04/05/2023
 Hora: 14:00
 Producto: Gorra
 Cantidad: 3
-Precio: 15.0
+Precio: 1800.0
 
 Fecha: 05/05/2023
 Hora: 16:30
