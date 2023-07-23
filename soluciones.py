@@ -12,8 +12,7 @@ def ej_1_carga_dataset() -> Tuple[np.ndarray, np.ndarray]:
     Returns:
         Tuple[np.ndarray, np.ndarray]: Tuple[np.array[shape=(n_imgs, 8, 8)], np.array[shape=(n_imgs,)]]
     """
-    digits = load_digits()
-    return digits.images, digits.target
+    pass
 
 
 def ej_2_exploracion_dataset(X: np.ndarray, Y: np.ndarray, rng: np.random.Generator):
@@ -31,11 +30,7 @@ def ej_2_exploracion_dataset(X: np.ndarray, Y: np.ndarray, rng: np.random.Genera
         Y (np.ndarray): Etiquetas
         rng (np.random.Generator): Generador de números aleatorios
     """
-    idx = rng.choice(range(len(X)), size=10, replace=False)
-    for x, y in zip(X[idx], Y[idx]):
-        plt.imshow(x, cmap="gray")
-        plt.title(f"Digito: {y}")
-        plt.show()
+    pass
         
 
 def ej_3_entrenar_arbol(X: np.ndarray, y: np.ndarray) -> DecisionTreeClassifier:
@@ -49,15 +44,7 @@ def ej_3_entrenar_arbol(X: np.ndarray, y: np.ndarray) -> DecisionTreeClassifier:
     Returns:
         DecisionTreeClassifier: Modelo ajustado
     """
-    from sklearn.model_selection import train_test_split
-    
-    X = X.reshape(-1, 64)
-    
-    X_train, _, y_train, _ = train_test_split(X, y, test_size=0.2, random_state=42)
-    clf = DecisionTreeClassifier(random_state=42)
-    clf.fit(X_train, y_train)
-    
-    return clf
+    pass
 
 
 def ej_4_evaluacion_rendimiento(
@@ -73,7 +60,4 @@ def ej_4_evaluacion_rendimiento(
     Returns:
         float: accuracy calculada
     """
-    from sklearn.metrics import accuracy_score
-    preds = modelo.predict(X_test)
-    
-    return accuracy_score(y_test, preds)
+    pass
