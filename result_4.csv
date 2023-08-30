@@ -1,7 +1,7 @@
 "id","nombre","categoria","precio","cantidad"
 1,Camiseta,Ropa,19.99,50
 2,Zapatos,Calzado,59.99,20
-3,Pantalón,Ropa,29.99,30
+3,Pantalon,Ropa,29.99,30
 5,Bufanda,Accesorios,14.99,40
 8,Reloj,Accesorios,39.99,15
 9,Juguete,Infantil,12.99,70
